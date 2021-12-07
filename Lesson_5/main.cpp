@@ -28,9 +28,9 @@ void processingInputData(string& buf)
 {
 	
 	multimap<int,string> myMap;
-	auto item = 0;
-	auto prev = 0;
-	auto count = 0;
+	int item = 0;
+	int prev = 0;
+	int count = 0;
 	//Get a sentence from the buffer
 	for (auto smb : buf)
 	{
